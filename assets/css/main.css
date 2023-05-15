@@ -2463,7 +2463,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-/* Image */
+/* Video */
 
 	.video {
 		border-radius: 5px;
@@ -2480,7 +2480,26 @@ input, select, textarea {
 			.video.fit video {
 				width: 100%;
 			}
-		
+
+/* Iframe */
+
+	.iframe {
+		border-radius: 5px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+		.iframe.fit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+			height: 680px;
+		}
+
+			.iframe.fit iframe {
+				width: 100%;
+				
+			}	
 
 /* List */
 
